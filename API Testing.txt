@@ -1,0 +1,67 @@
+https://gorest.co.in/public/v2/users/7281396
+
+
+const schema= 
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "name",
+        "email",
+        "gender",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                7281396
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Datta Guneta"
+            ]
+        },
+        "email": {
+            "type": "string",
+            "default": "",
+            "title": "The email Schema",
+            "examples": [
+                "datta_guneta@waters-howe.test"
+            ]
+        },
+        "gender": {
+            "type": "string",
+            "default": "",
+            "title": "The gender Schema",
+            "examples": [
+                "female"
+            ]
+        },
+        "status": {
+            "type": "string",
+            "default": "",
+            "title": "The status Schema",
+            "examples": [
+                "active"
+            ]
+        }
+    },
+    "examples": [{
+        "id": 7281396,
+        "name": "Datta Guneta",
+        "email": "datta_guneta@waters-howe.test",
+        "gender": "female",
+        "status": "active"
+    }]
+}
